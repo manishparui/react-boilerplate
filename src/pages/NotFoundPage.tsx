@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 import { Center, Heading, Text, Button } from '@chakra-ui/react';
 import { FaHome } from 'react-icons/fa';
 
-const NotFound = (): JSX.Element => {
+const NotFoundPage = (): JSX.Element => {
   return (
     <Center height="100vh" flexDirection="column">
       <Heading fontSize="4xl">404 - Not Found</Heading>
@@ -16,4 +16,4 @@ const NotFound = (): JSX.Element => {
   );
 };
 
-export default NotFound;
+export default NotFoundPage;

@@ -1,6 +1,5 @@
-import React from 'react';
-import Home from '../pages/Home';
-import NotFound from '../pages/NotFound';
+import HomePage from '../pages/HomePage';
+import NotFoundPage from '../pages/NotFoundPage';
 import SignInPage from '../pages/SignInPage';
 
 export interface IRoute {
@@ -14,7 +13,7 @@ export interface IRoute {
 const routes: IRoute[] = [
   {
     path: '/',
-    element: <Home />,
+    element: <HomePage />,
     id: 1
   },
   {
@@ -24,7 +23,7 @@ const routes: IRoute[] = [
   },
   {
     path: '*',
-    element: <NotFound />,
+    element: <NotFoundPage />,
     id: 1
   }
 ];
